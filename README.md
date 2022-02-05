@@ -15,6 +15,8 @@ Steps to get the project running:
     This is the main script to extract data, process it for popular trends (tweets, hashtags and mentions)
     The `search_query` param can be changed to whatever suits the needs
     Everytime this script is run, it will generate a new directory with the timestamp and have raw and processed data for the past hour to when it was run.
+    Every result directory will have 4 files: 1 raw tweet object file, 1 tweet text file that contains the extracted tweets, 1 popular hashtag file and 1 popular mentions file
+    This repository already contains some example result directories.
     
  Hope these instructions help.
  
